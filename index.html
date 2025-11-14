@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloom & Bean Café</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Floating SVGs -->
+<div id="floating-svgs">
+  <img src="coffee-cup.svg" class="floating-svg cup1" alt="Coffee Cup">
+  <img src="coffee-cup.svg" class="floating-svg cup2" alt="Coffee Cup">
+  <img src="coffee-cup.svg" class="floating-svg cup3" alt="Coffee Cup">
+  <img src="coffee-bean.svg" class="floating-svg bean1" alt="Coffee Bean">
+  <img src="coffee-leaf.svg" class="floating-svg leaf1" alt="Coffee Leaf">
+  <img src="coffee-leaf.svg" class="floating-svg leaf3" alt="Coffee Leaf">
+  <img src="coffee-leaf.svg" class="floating-svg hero-right2" alt="Coffee Leaf">
+  <img src="coffee-c.svg" class="floating-svg hero-center" alt="Coffee C">
+</div>
+
+<!-- Header -->
+<header class="header">
+  <nav class="navbar">
+    <img src="logo.png" alt="Bloom & Bean Logo" class="logo-img" />
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">☰</div>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-glass">
+    <div class="hero-text">
+      <h2>Freshly Brewed Moments</h2>
+      <p>Experience warmth, aroma, and handcrafted perfection in every cup.</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>
+    Bloom & Bean Café is the heart of our community – a cozy corner where coffee meets comfort.
+    We serve locally roasted beans, handcrafted pastries, and a welcoming smile.
+  </p>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="menu">
+  <h2>Our Menu</h2>
+  <div class="menu-wrapper">
+    <div class="menu-items">
+      <div class="item">
+        <img src="espresso.jpg" alt="Espresso">
+        <div class="item-info">
+          <h3>Espresso</h3>
+          <p>Rich & bold, made from organic beans.</p>
+          <span>₹120</span>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="cappuccino.jpg" alt="Cappuccino">
+        <div class="item-info">
+          <h3>Cappuccino</h3>
+          <p>Silky smooth milk froth with espresso.</p>
+          <span>₹150</span>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="mocha.jpg" alt="Mocha">
+        <div class="item-info">
+          <h3>Mocha</h3>
+          <p>Chocolaty delight with espresso kick.</p>
+          <span>₹180</span>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="latte.jpg" alt="Latte">
+        <div class="item-info">
+          <h3>Latte</h3>
+          <p>Perfectly balanced espresso and milk blend.</p>
+          <span>₹170</span>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="caramel-macchiato.jpg" alt="Caramel Macchiato">
+        <div class="item-info">
+          <h3>Caramel Macchiato</h3>
+          <p>Sweet caramel drizzle over rich espresso.</p>
+          <span>₹190</span>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="hazelnut-frappe.jpg" alt="Hazelnut Frappe">
+        <div class="item-info">
+          <h3>Hazelnut Frappe</h3>
+          <p>Chilled blend with nutty sweetness.</p>
+          <span>₹200</span>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery">
+  <h2>Café Vibes</h2>
+  <div class="gallery-grid">
+    <img src="coffeecup.jpg" alt="Coffee cup" loading="lazy">
+    <img src="cafeinterior.jpg" alt="Café interior" loading="lazy">
+    <img src="baristaart.jpg" alt="Barista art" loading="lazy">
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>Get In Touch</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 Bloom & Bean Café | Crafted with love.</p>
+</footer>
+
+<!-- Floating Cart -->
+<div id="cart-icon">
+  🛒
+  <div class="cart-count">0</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
